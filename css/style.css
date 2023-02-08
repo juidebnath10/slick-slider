@@ -1,0 +1,307 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Sacramento', cursive; 
+    font-family: 'Unna', serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/* header css start */
+.header{
+    width: 100%;
+    padding: 10px 0px 20px;
+    background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;	
+}
+
+/* .header .fixed-top{
+    width: 100%;
+    background: #efd0ca;
+} */
+
+.logo{
+    width: 140px;
+    height: 50px;
+}
+
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0px 35px 0px 0px;
+    color: #111;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: #e08e9c;
+}
+
+.menu .navbar-expand-lg .navbar-nav .nav-link:focus{
+    color: #e08e9c;
+}
+
+/* banner css start */
+.header .banner{
+    width: 100%;
+    padding: 190px 0px;
+}
+
+.header .banner .title-banner{
+    width: 100%;
+    padding: 20px 0px 0px 70px;
+}
+
+.header .banner .title-banner h1{
+    font-family: 'Unna', serif;
+    font-size: 86px;
+    line-height: 66px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0px 0px 25px;
+}
+
+.header .banner .title-banner h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    color: #333333;
+    margin: 0px 0px 15px;
+}
+
+.header .banner .title-banner p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.header .banner .double-button{
+    padding: 0px 0px 0px 70px;
+}
+
+.header .banner .double-button .btn-primary{
+    padding: 10px 20px;
+    margin: 10px 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #e08e9c;
+    border-radius: 25px;
+    border: 3px solid #e08e9c;
+    transition: 1s;
+}
+
+.header .banner .double-button .btn-primary:hover{
+    color: #111;
+    background: transparent;
+    border: 3px solid #e08e9c;
+}
+
+.header .banner .double-button .btn-primary:focus{
+    color: #111;
+    background: transparent;
+    border: 3px solid #e08e9c;
+}
+
+.header .banner .double-button .btn-read{
+    margin: 10px 20px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #111
+}
+
+.header .banner .double-button .btn-read:hover{
+    color: #e08e9c;
+}
+
+.header .banner .double-button .btn-read:focus{
+    color: #e08e9c
+}
+/* banner css end */
+/* header css end */
+
+/* discount css start */
+.discount{
+    width: 100%;
+    padding: 10px 0px;
+    background: url("../images/discount.png") center top no-repeat;
+	background-size: cover;	
+}
+
+.discount .title-discount{
+    width: 100%;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.discount .title-discount h1{
+    font-family: 'Unna', serif;
+    font-size: 56px;
+    line-height: 66px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 0px 0px 0px;
+}
+
+.discount .title-discount h3{
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+    color: #fff;
+    margin: 0px 0px 0px;
+}
+/* discount css end */
+
+/* product css start */
+.product{
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.product .product-title{
+    text-align: center;
+    margin: 0px 0px 40px;
+}
+
+.product .product-title h1{
+    font-family: 'Unna', serif;
+    font-size: 46px;
+    line-height: 56px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 0px 0px 10px;
+}
+
+.product .product-title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.product .card{
+    width: 100%;
+    margin: 40px 0px 30px;
+    text-align: center;
+    box-shadow: 0px 10px 40px #e08e9c;
+    border-radius: 18px;
+    border: 0px;
+}
+
+.product .card .card-img{
+    margin: 85px 0px 20px 0px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.product .card .card-img .img-fluid{
+    position: absolute;
+    top: -66px;
+    left: 74px;
+}
+
+.product .card .card-text h5{
+    font-family: 'Unna', serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #333333;
+    margin: 0px 0px 10px;
+}
+
+.product .card .card-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+.product .card .btn-primary{
+    padding: 10px 20px;
+    margin: 0px 20px 20px 0px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #a3aa68;
+    border-radius: 25px;
+    border: 3px solid #a3aa68;
+    transition: 1s;
+}
+
+.product .card .btn-primary:hover{
+    color: #111;
+    background: transparent;
+    border: 3px solid #a3aa68;
+}
+
+.product .card .btn-primary:focus{
+    color: #111;
+    background: transparent;
+    border: 3px solid #a3aa68;
+}
+
+.product .card .card-img .img-fluid2{
+    position: absolute;
+    top: -76px;
+    left: 99px;
+}
+
+.product .card .card-img .img-fluid3{
+    position: absolute;
+    top: -42px;
+    left: 102px;
+}
+
+/* product css end */
